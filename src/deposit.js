@@ -38,8 +38,7 @@ export default function Deposit() {
 
   return (
     <>
-      <img id="depositimg" src="deposit.avif" alt="Deposit" />
-      <Form onSubmit={handleClick}>
+      <Form onSubmit={handleClick} id="deposit">
         <h4>Deposit Your Amount Here</h4>
         <hr />
         <Form.Group className="mb-3" controlId="formBasicEmail">
